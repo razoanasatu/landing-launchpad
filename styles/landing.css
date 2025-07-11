@@ -82,7 +82,9 @@ nav {
 .action-img {
   border-radius: 48px;
 }
-/* .action-block {
-  height: 517px;
-  width: 203px;
-} */
+/* Users*/
+.background-color {
+  background-color: rgba(78, 71, 255, 0.1);
+  height: 306px;
+  margin: 116px 159px 137px 141px;
+}
