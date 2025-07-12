@@ -11,6 +11,10 @@
   color: #4e47ff;
 }
 
+body {
+  background-color: rgba(245, 248, 255, 1);
+}
+
 .raleway-normal {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
@@ -87,4 +91,111 @@ nav {
   background-color: rgba(78, 71, 255, 0.1);
   height: 306px;
   margin: 116px 159px 137px 141px;
+}
+
+/* What our users say */
+.star-icon {
+  display: flex;
+}
+.users-say {
+  display: flex;
+  margin: 137px 149px 137px 151px;
+}
+.user-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.user-image-decoration {
+  display: flex;
+}
+
+/* Connect me */
+.connect-me {
+  /* padding: 0 150px 0 150px; */
+  display: flex;
+  gap: 115px;
+  width: 1140px;
+  height: 632px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.connect-column {
+  max-width: 450px;
+  margin: 0 auto;
+  padding: 25px;
+}
+
+.connect-column form input[type="text"],
+.connect-column form input[type="email"],
+.connect-column form textarea {
+  width: 100%;
+  padding: 14px 16px;
+  height: 70px;
+  margin-bottom: 18px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.connect-column form textarea {
+  width: 100%;
+  padding: 14px 16px;
+  height: 135px;
+  margin-bottom: 18px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.connect-column form textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.section-title {
+  padding-top: 200px;
+  padding-bottom: 300px;
+  font-size: 97px;
+  width: 528px;
+  height: 232px;
+}
+/* Footer */
+footer {
+  background-color: #ffffff;
+  height: 428px;
+  text-align: center;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+form {
+  padding-top: 71px;
+  padding-bottom: 71px;
+  height: 632px;
+}
+
+.footer-content {
+  padding: 104px 445px 104px 445px;
+}
+
+.footer-logo {
+  font-size: 100px;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul li a {
+  text-decoration: none;
+}
+ul {
+  display: flex;
 }
