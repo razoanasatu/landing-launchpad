@@ -184,7 +184,7 @@ nav {
   margin-right: 149px;
   margin-top: 50px;
   gap: 20px;
-  padding: 0px;
+  padding: 0px 0px 0px 0px;
 }
 .our-user {
   margin: 137px 149px 0px 151px;
@@ -207,7 +207,7 @@ nav {
 }
 
 .box {
-  width: 336px;
+  width: 336.67px;
   height: 243px;
   padding-left: 24px;
   padding-right: 24px;
