@@ -74,6 +74,7 @@ nav {
   border: none;
   width: 174px;
   height: 48px;
+  margin-top: 37px;
 }
 
 .hero-btn-text {
@@ -89,14 +90,16 @@ nav {
 }
 
 .action-text {
-  margin: 62.5px 220px 62.5px 0;
   font-size: 42px;
   font-weight: 800px;
+  color: rgba(37, 36, 50, 1);
+  margin-bottom: 23px;
 }
 .action-des-text {
   font-size: 24px;
 
   color: #252432;
+  margin-bottom: 23px;
 }
 
 .raleway-des {
@@ -108,11 +111,29 @@ nav {
 .action-img {
   border-radius: 48px;
 }
+
+.action-p {
+  margin-top: 62.5px;
+  margin-bottom: 62.5px;
+}
+.launch-btn {
+  font-size: 16px;
+  background-color: #4e47ff;
+  font-weight: bold;
+  color: white;
+
+  border-radius: 10px;
+  font-size: 20px;
+  border: none;
+  width: 229px;
+  height: 48px;
+}
 /* Users*/
 .background-color {
   background-color: rgba(78, 71, 255, 0.1);
   height: 306px;
-  margin: 116px 159px 137px 141px;
+  margin: 116px 159px 0px 141px;
+  border-radius: 24px;
 }
 
 .joined {
@@ -120,15 +141,18 @@ nav {
 }
 
 .font-h3 {
-  font-size: 45px;
+  font-size: 38px;
   text-align: center;
+  color: #252432;
 }
 .user-count ul {
   display: flex;
   gap: 158px;
   justify-content: space-around;
 }
-
+.user-count {
+  margin-top: 40px;
+}
 .user-count ul li {
   font-size: 97px;
   font-weight: 800;
@@ -138,6 +162,8 @@ nav {
   display: flex;
   gap: 158px;
   justify-content: space-around;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.5);
 }
 /* What our users say */
 .star-icon {
@@ -145,8 +171,20 @@ nav {
 }
 .users-say {
   display: flex;
-  margin: 137px 149px 137px 151px;
+  margin-left: 150px;
+  margin-right: 149px;
+  margin-top: 50px;
+  gap: 20px;
+  padding: 0px;
 }
+.our-user {
+  margin: 137px 149px 0px 151px;
+  text-align: center;
+  margin-top: 137px;
+  color: rgba(37, 36, 50, 1);
+  font-size: 49px;
+}
+
 .user-image {
   width: 40px;
   height: 40px;
@@ -157,6 +195,13 @@ nav {
 .user-image-decoration {
   display: flex;
 }
+
+/* .box {
+  width: 336px;
+  height: 243px;
+  padding-left: 24px;
+  padding-right: 24px;
+} */
 
 /* Connect me */
 .connect-me {
@@ -178,11 +223,11 @@ nav {
 .connect-column form input[type="text"],
 .connect-column form input[type="email"],
 .connect-column form textarea {
-  width: 100%;
+  width: 497px;
   padding: 14px 16px;
   height: 70px;
   margin-bottom: 18px;
-  border: 1px solid #ccc;
+  border: 1px solid #d6dded;
   border-radius: 8px;
   font-size: 15px;
   box-sizing: border-box;
@@ -190,7 +235,7 @@ nav {
 }
 
 .connect-column form textarea {
-  width: 100%;
+  width: 497;
   padding: 14px 16px;
   height: 135px;
   margin-bottom: 18px;
@@ -213,6 +258,18 @@ nav {
   width: 528px;
   height: 232px;
 }
+.touch-btn {
+  font-size: 16px;
+  background-color: #4e47ff;
+  font-weight: bold;
+  color: white;
+
+  border-radius: 10px;
+  font-size: 20px;
+  border: none;
+  width: 497px;
+  height: 62px;
+}
 /* Footer */
 footer {
   background-color: #ffffff;
@@ -233,6 +290,7 @@ form {
 
 .footer-logo {
   font-size: 100px;
+  margin-bottom: 8px;
 }
 
 ul li {
@@ -241,7 +299,24 @@ ul li {
 
 ul li a {
   text-decoration: none;
+  font-size: 17px;
+  color: #8987a1;
 }
 ul {
   display: flex;
+  padding: 0px;
+  margin-left: 65px;
+  margin-right: 65px;
+  justify-content: space-around;
+}
+.footer-p {
+  font-size: 17px;
+  color: #8987a1;
+  margin-bottom: 20px;
+}
+.label {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  color: black;
 }
