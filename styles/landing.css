@@ -51,11 +51,33 @@ nav {
   border-radius: 10px;
   font-size: 20px;
   border: none;
+  width: 132px;
+  height: 48px;
+}
+.btn-text {
+  font-size: 16px;
 }
 
 .hero-description {
   padding: 309px 267.5px 152px 267.5px;
   text-align: center;
+  flex-direction: column;
+  gap: 37px;
+}
+.hero-btn {
+  background-color: #4e47ff;
+  font-weight: bold;
+  color: white;
+
+  border-radius: 10px;
+  font-size: 20px;
+  border: none;
+  width: 174px;
+  height: 48px;
+}
+
+.hero-btn-text {
+  font-size: 16px;
 }
 
 /* Action Style */
